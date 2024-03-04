@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'galaxy';
+    src: url(megatrans-font/MegatransdemoRegular-8M9B0.otf);
+}
+#bodymercurio{
+    background-image: url('https://i.ytimg.com/vi/9jOI6b8URWE/maxresdefault.jpg'); 
+    background-size: auto;
+    background-attachment: fixed;
+}
+section {
+    width: 40%;
+    background-color: white;
+    color: black;
+    border-radius: 100px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    justify-self: left;
+    border-bottom: 100%;
+}
+
+span{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    border-radius: 80px 0px 50px 0px;
+    float: right;
+    width: 10%;
+    right: 10px;
+    padding: 10px 40px;
+    box-shadow: -10px 10px 40px black;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+a:hover{
+    color: blue;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em blue;
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+
+nav a {
+    font-family: 'galaxy';
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 2em;
+    transition:  0.2s;
+    animation-duration: 0.2s;
+}
+
+section > h1 {
+    padding-left: 100px;
+}
+
+body {
+    background-color: black;
+    height: auto;
+}
+
+nav a:hover  {
+    color: rgb(150, 160, 8);
+    font-size: 20px;
+    font-weight: bold;
+    animation-duration: 0.2s;
+}
+
+.Menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around 10%;
+}
+
+img{
+    justify-self: right;
+    width: 50%;
+    float: right;
+}
+
+img{
+    width: 30%;
+    position: relative;
+}
+
+.MERCURIO{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgb(50, 50, 53);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+#sistemasolar{
+    background-image: url('https://images7.alphacoders.com/896/896200.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.principal{
+    background-image: url('https://i.pinimg.com/originals/48/c0/f4/48c0f406a4a455b532dd00d4aa0cc7db.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.VENUS{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgb(255, 166, 0);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+.venusfundo{
+    background-image: url('https://wallpapercave.com/wp/wp7589421.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'galaxy';
+}
+
+.TERRA{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgb(2, 78, 241);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+
+.terrafundo{
+    background-image: url('https://wallpapercave.com/wp/wp6104073.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.martefundo{
+    background-image: url('https://fondosmil.com/fondo/80606.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jupiterfundo{
+    background-image: url('https://scitechdaily.com/images/Jupiter-Vista-From-Juno-2048x877.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.saturnofundo{
+    background-image: url('https://mi.astrocentro.com/vss/astrocenter/pictures/29642756-adobestock-250121615.jpeg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.SATURNO{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgba(255, 230, 0, 0.726);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+.MARTE{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgba(255, 136, 0, 0.726);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+.JUPITER{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgb(255, 251, 0);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+.uranofundo{
+    background-image: url('https://facts.net/wp-content/uploads/2020/10/Uranus-Rings-1024x1024.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.TEXTOASTRONOMIA{
+    background-color: white;
+    color: black;
+    border-radius: 100px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display: flex;
+    width: auto;
+}
+.netunoFundo{
+    background-image: url('https://p.turbosquid.com/ts-thumb/pr/FCofIV/qW/neptune/jpg/1622065649/1920x1080/turn_fit_q99/afb271ebdfd32ffcd5247934458c09011ba0818b/neptune-1.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.NETUNO{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'galaxy';
+    color: white;
+    box-shadow: 5px 5px 2em rgb(0, 183, 255);
+    border-radius: 0px 100px 0px 100px;
+    border: 100px;
+    margin:30px 20px 30px 20px;
+}
+.buracoNegroFundo{
+    background-image: url('https://acrediteounao.com/wp-content/uploads/2016/10/buraco-branco-interstellar.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imgdosmenus{
+    width: 30%;
+    display: flex;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+.textodosmenus{
+        width: auto;
+        background-color: white;
+        color: black;
+        border-radius: 100px 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 50px;
+        justify-self: left;
+        border-bottom: 100%;
+}
+
+.constelaçoesfundo{
+    background-image: url('https://super.abril.com.br/wp-content/uploads/2019/12/james-stone_gettyimages_estrela_brilhante_orion.jpg?quality=70&strip=all&resize=420'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fundogalaxia{
+    background-image: url('https://i1.wp.com/www.astrobitacora.com/wp-content/uploads/2018/02/m31_comolli_2193.jpg?ssl=1'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
